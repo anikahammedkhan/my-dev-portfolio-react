@@ -8,3 +8,7 @@ body {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.font-color {
+    color: #42446E;
+}
