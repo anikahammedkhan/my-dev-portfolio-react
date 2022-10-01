@@ -7,7 +7,7 @@ import TechStack from './components/TechStack/TechStack';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App relative">
       <Navbar></Navbar>
       <Hero></Hero>
       <TechStack></TechStack>

@@ -3,7 +3,7 @@ import './Hero.css';
 import profie from './profile.png';
 const Hero = () => {
     return (
-        <div className='flex p-5 md:p-28 justify-center items-center flex-col-reverse md:flex-row lg:flex-row'>
+        <div id='home' className='flex p-5 md:p-28 justify-center items-center flex-col-reverse md:flex-row lg:flex-row'>
             <div className='flex-initial md:w-1/2'>
                 <h1 className='text-4xl md:text-5xl lg:text-6xl py-2 font-color'>Hi👋,</h1>
                 <h1 className='text-2xl md:text-4xl lg:text-4xl py-2 font-color'>My Name is</h1>

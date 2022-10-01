@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 const Navbar = () => {
     return (
-        <div>
+        <div className='sticky top-0 z-10'>
             <div className="navbar bg-base-100 shadow-lg rounded-md justify-between">
                 <div className="navbar-start">
                     <img src={Logo} alt="" className='w-full md:w-1/2 lg:w-[200px]' />
