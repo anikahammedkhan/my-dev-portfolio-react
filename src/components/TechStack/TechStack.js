@@ -17,12 +17,12 @@ import vscode from '../../images/vscode.svg';
 import meterial from '../../images/material-ui.svg';
 const TechStack = () => {
     return (
-        <div className='my-10'>
-            <div className='font-color text-center py-4'>
-                <h1 className='text-5xl font-bold py-4'>My Tech Stack</h1>
-                <p className='text-3xl'> Technologies I’ve been working with recently</p>
+        <div className='my-10 mx-12'>
+            <div className='font-color text-center py-4 px-3'>
+                <h1 className='text-3xl md:text-5xl font-bold py-4'>My Tech Stack</h1>
+                <p className='text-2xl md:text-3xl'> Technologies I’ve been working with recently</p>
             </div>
-            <div className='grid grid-cols-5 gap-4 p-6 justify-center items-center'>
+            <div className='grid grid-cols-5 gap-4 justify-items-center items-center'>
                 <img src={html} alt="" />
                 <img src={css} alt="" />
                 <img src={js} alt="" />
