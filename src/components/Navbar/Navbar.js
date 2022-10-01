@@ -18,9 +18,9 @@ const Navbar = () => {
                         <a href="#techState" className="btn btn-ghost btn-sm rounded-btn">TechStack</a>
                         <a href="#projects" className="btn btn-ghost btn-sm rounded-btn">Projects</a>
                         <a href="#contact" className="btn btn-ghost btn-sm rounded-btn">Contact</a>
-                        <a href="https://github.com/anikahammedkhan" target="_blank" rel='noopener noreferrer' className="btn btn-ghost btn-sm rounded-btn"><FaGithub></FaGithub></a>
-                        <a href="https://www.linkedin.com/in/anikahammedkhan/" className="btn btn-ghost btn-sm rounded-btn" target="_blank" rel='noopener noreferrer'><FaLinkedin></FaLinkedin></a>
-                        <a href="https://www.facebook.com/anikahammedkhan.99" className="btn btn-ghost btn-sm rounded-btn" target="_blank" rel='noopener noreferrer'><FaFacebook></FaFacebook></a>
+                        <a href="https://github.com/anikahammedkhan" target="_blank" rel='noopener noreferrer' className="btn btn-ghost btn-sm rounded-btn text-xl"><FaGithub></FaGithub></a>
+                        <a href="https://www.linkedin.com/in/anikahammedkhan/" className="btn btn-ghost btn-sm rounded-btn text-xl" target="_blank" rel='noopener noreferrer'><FaLinkedin></FaLinkedin></a>
+                        <a href="https://www.facebook.com/anikahammedkhan.99" className="btn btn-ghost btn-sm rounded-btn text-xl" target="_blank" rel='noopener noreferrer'><FaFacebook></FaFacebook></a>
 
                     </div>
                 </div>
