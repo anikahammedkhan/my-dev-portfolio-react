@@ -19,6 +19,7 @@ const Projects = () => {
                 {
                     projects.map(project =>
                         <Project project={project}
+                            key={project.id}
                         ></Project>
                     )
                 }

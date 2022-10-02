@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../About/About';
 import Projects from '../Projects/Projects';
 import TechStack from '../TechStack/TechStack';
 import './Hero.css';
@@ -20,6 +21,7 @@ const Hero = () => {
             </div>
             <TechStack></TechStack>
             <Projects></Projects>
+            <About></About>
         </div>
 
     );

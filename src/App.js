@@ -6,6 +6,7 @@ import Projects from './components/Projects/Projects';
 import TechStack from './components/TechStack/TechStack';
 import About from './components/About/About';
 import Main from './layout/Main';
+import Contact from './components/Contact/Contact';
 
 function App() {
   const router = createBrowserRouter([
@@ -18,7 +19,7 @@ function App() {
         { path: '/about', element: <About /> },
         { path: '/techState', element: <TechStack /> },
         { path: '/projects', element: <Projects /> },
-        { path: '/contact', element: <Footer /> },
+        { path: '/contact', element: <Contact /> },
       ]
     },
   ]);
