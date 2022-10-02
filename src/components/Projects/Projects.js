@@ -10,7 +10,7 @@ const Projects = () => {
             .then(data => setProjects(data))
     }, []);
     return (
-        <div>
+        <div id='projects'>
             <div className='font-color text-center py-4 px-3'>
                 <h1 className='text-3xl md:text-5xl font-bold py-4'>Projects</h1>
                 <p className='text-2xl md:text-3xl'>Things I’ve built so far</p>

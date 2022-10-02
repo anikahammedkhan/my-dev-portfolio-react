@@ -17,7 +17,7 @@ import vscode from '../../images/vscode.svg';
 import meterial from '../../images/material-ui.svg';
 const TechStack = () => {
     return (
-        <div className='my-10 mx-12'>
+        <div id='techState' className='my-10 mx-12 top-5'>
             <div className='font-color text-center py-4 px-3'>
                 <h1 className='text-3xl md:text-5xl font-bold py-4'>My Tech Stack</h1>
                 <p className='text-2xl md:text-3xl'> Technologies I’ve been working with recently</p>
