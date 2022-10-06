@@ -1,14 +1,14 @@
 import Lottie from "lottie-react";
-import Hello from '../Lottie/hello.json';
 import { GiOfficeChair } from 'react-icons/gi';
 import { GrLocation } from 'react-icons/gr';
 import { BsCalendar3 } from 'react-icons/bs';
-
+import hello from '../Lottie/31548-robot-says-hello.json';
 const About = () => {
+    const Hello = hello;
     return (
         <div className='lg:flex md:block block mx-8 my-4'>
             <div className='lg:w-1/2 md:w-2/3 py-6 md:mx-auto'>
-                <Lottie animationData={Hello} />
+                <Lottie animationData={Hello} loop={true} autoplay={true} />
             </div>
             <div className='lg:w-1/2 md:w-full my-auto'>
                 <div>

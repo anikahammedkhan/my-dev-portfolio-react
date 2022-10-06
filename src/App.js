@@ -1,13 +1,13 @@
+import React from 'react';
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Footer from './components/Footer/Footer';
 import Hero from './components/Hero/Hero';
 import Projects from './components/Projects/Projects';
 import TechStack from './components/TechStack/TechStack';
 import About from './components/About/About';
 import Main from './layout/Main';
 import Contact from './components/Contact/Contact';
-
+import Error from './components/Error/Error';
 function App() {
   const router = createBrowserRouter([
     {
@@ -22,6 +22,7 @@ function App() {
         { path: '/contact', element: <Contact /> },
       ]
     },
+    { path: '*', element: <Error></Error> }
   ]);
   return (
     <div className="App relative">
