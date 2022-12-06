@@ -19,10 +19,9 @@ const Navbar = () => {
                         <Link to="/techState" className="btn btn-ghost btn-sm rounded-btn">TechStack</Link>
                         <Link to="/projects" className="btn btn-ghost btn-sm rounded-btn">Projects</Link>
                         <Link to="/contact" className="btn btn-ghost btn-sm rounded-btn">Contact</Link>
-                        <Link to="https://github.com/anikahammedkhan" target="_blank" rel='noopener noreferrer' className="btn btn-ghost btn-sm rounded-btn text-xl"><FaGithub></FaGithub></Link>
-                        <Link to="https://www.linkedin.com/in/anikahammedkhan/" className="btn btn-ghost btn-sm rounded-btn text-xl" target="_blank" rel='noopener noreferrer'><FaLinkedin></FaLinkedin></Link>
-                        <Link to="https://www.facebook.com/anikahammedkhan.99" className="btn btn-ghost btn-sm rounded-btn text-xl" target="_blank" rel='noopener noreferrer'><FaFacebook></FaFacebook></Link>
-
+                        <a href="https://github.com/anikahammedkhan" target="_blank" rel='noopener noreferrer' className="btn btn-ghost btn-sm rounded-btn text-xl"><FaGithub></FaGithub></a>
+                        <a href="https://www.linkedin.com/in/anikahammedkhan/" target="_blank" rel='noopener noreferrer' className="btn btn-ghost btn-sm rounded-btn text-xl"><FaLinkedin></FaLinkedin></a>
+                        <a href="https://www.facebook.com/anikahammedkhan.99" target="_blank" rel='noopener noreferrer' className="btn btn-ghost btn-sm rounded-btn text-xl"><FaFacebook></FaFacebook></a>
                     </div>
                 </div>
                 <div className="flex-none block md:block lg:hidden">
@@ -36,9 +35,9 @@ const Navbar = () => {
                             <li><Link to="/techState">TechStack</Link></li>
                             <li><Link to="/projects">Projects</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
-                            <li><Link to="https://github.com/anikahammedkhan" target="_blank" rel='noopener noreferrer'><FaGithub></FaGithub></Link></li>
-                            <li><Link to="https://www.linkedin.com/in/anikahammedkhan/" target="_blank" rel='noopener noreferrer'><FaLinkedin></FaLinkedin></Link></li>
-                            <li><Link to="https://www.facebook.com/anikahammedkhan.99" target="_blank" rel='noopener noreferrer'><FaFacebook></FaFacebook></Link></li>
+                            <a href="https://github.com/anikahammedkhan" target="_blank" rel='noopener noreferrer' className="btn btn-ghost btn-sm rounded-btn text-xl"><FaGithub></FaGithub></a>
+                            <a href="https://www.linkedin.com/in/anikahammedkhan/" target="_blank" rel='noopener noreferrer' className="btn btn-ghost btn-sm rounded-btn text-xl"><FaLinkedin></FaLinkedin></a>
+                            <a href="https://www.facebook.com/anikahammedkhan.99" target="_blank" rel='noopener noreferrer' className="btn btn-ghost btn-sm rounded-btn text-xl"><FaFacebook></FaFacebook></a>
                         </ul>
                     </div>
                 </div>
