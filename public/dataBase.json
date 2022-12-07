@@ -1,92 +1,30 @@
 [
     {
         "id": "001",
-        "picture": "http://placehold.it/32x32",
-        "name": "Grolio",
-        "about": "Grolio is a Personal portfolio based PSD template. This template is a highly suitable for personal website. The PSD is designed on 1170px grid system and can be easily converted into HTML Templates, WordPress etc.",
-        "stack": "HTML,CSS,JS,React",
-        "liveLink": "Netlyfie",
-        "repoLink": "Github"
-    },
-    {
-        "id": "002",
-        "picture": "http://placehold.it/32x32",
-        "name": "Ramos Britt",
-        "about": "Ea dolore incididunt Lorem occaecat. Aute culpa incididunt consectetur minim elit qui reprehenderit sint. Sit officia magna elit anim officia reprehenderit excepteur sunt. Irure occaecat voluptate deserunt sit est sint enim id deserunt in. Veniam pariatur deserunt quis excepteur incididunt incididunt magna ullamco nisi.",
-        "stack": "HTML,CSS,JS,React",
-        "liveLink": "Netlify",
-        "repoLink": "Github"
-    },
-    {
-        "id": "003",
-        "picture": "http://placehold.it/32x32",
-        "name": "Ramos Britt",
-        "about": "Ea dolore incididunt Lorem occaecat. Aute culpa incididunt consectetur minim elit qui reprehenderit sint. Sit officia magna elit anim officia reprehenderit excepteur sunt. Irure occaecat voluptate deserunt sit est sint enim id deserunt in. Veniam pariatur deserunt quis excepteur incididunt incididunt magna ullamco nisi.\r\n",
-        "stack": "HTML,CSS,JS,React",
-        "liveLink": "Netlify",
-        "repoLink": "Github"
-    },
-    {
-        "id": "004",
-        "picture": "http://placehold.it/32x32",
-        "name": "Ramos Britt",
-        "about": "Ea dolore incididunt Lorem occaecat. Aute culpa incididunt consectetur minim elit qui reprehenderit sint. Sit officia magna elit anim officia reprehenderit excepteur sunt. Irure occaecat voluptate deserunt sit est sint enim id deserunt in. Veniam pariatur deserunt quis excepteur incididunt incididunt magna ullamco nisi.\r\n",
-        "stack": "HTML,CSS,JS,React",
-        "liveLink": "Netlify",
-        "repoLink": "Github"
-    },
-    {
-        "id": "005",
-        "picture": "http://placehold.it/32x32",
-        "name": "Ramos Britt",
-        "about": "Ea dolore incididunt Lorem occaecat. Aute culpa incididunt consectetur minim elit qui reprehenderit sint. Sit officia magna elit anim officia reprehenderit excepteur sunt. Irure occaecat voluptate deserunt sit est sint enim id deserunt in. Veniam pariatur deserunt quis excepteur incididunt incididunt magna ullamco nisi.\r\n",
-        "stack": "HTML,CSS,JS,React",
-        "liveLink": "Netlify",
-        "repoLink": "Github"
-    },
-    {
-        "id": "006",
-        "picture": "http://placehold.it/32x32",
-        "name": "Ramos Britt",
-        "about": "Ea dolore incididunt Lorem occaecat. Aute culpa incididunt consectetur minim elit qui reprehenderit sint. Sit officia magna elit anim officia reprehenderit excepteur sunt. Irure occaecat voluptate deserunt sit est sint enim id deserunt in. Veniam pariatur deserunt quis excepteur incididunt incididunt magna ullamco nisi.\r\n",
-        "stack": "HTML,CSS,JS,React",
-        "liveLink": "Netlify",
-        "repoLink": "Github"
-    },
-    {
-        "id": "007",
-        "picture": "http://placehold.it/32x32",
-        "name": "Ramos Britt",
-        "about": "Ea dolore incididunt Lorem occaecat. Aute culpa incididunt consectetur minim elit qui reprehenderit sint. Sit officia magna elit anim officia reprehenderit excepteur sunt. Irure occaecat voluptate deserunt sit est sint enim id deserunt in. Veniam pariatur deserunt quis excepteur incididunt incididunt magna ullamco nisi.\r\n",
-        "stack": "HTML,CSS,JS,React",
-        "liveLink": "Netlify",
-        "repoLink": "Github"
-    },
-    {
-        "id": "008",
-        "picture": "http://placehold.it/32x32",
-        "name": "Ramos Britt",
-        "about": "Ea dolore incididunt Lorem occaecat. Aute culpa incididunt consectetur minim elit qui reprehenderit sint. Sit officia magna elit anim officia reprehenderit excepteur sunt. Irure occaecat voluptate deserunt sit est sint enim id deserunt in. Veniam pariatur deserunt quis excepteur incididunt incididunt magna ullamco nisi.\r\n",
-        "stack": "HTML,CSS,Js,React",
-        "liveLink": "Netlify",
-        "repoLink": "Github"
-    },
-    {
-        "id": "009",
-        "picture": "http://placehold.it/32x32",
-        "name": "Ramos Britt",
-        "about": "Ea dolore incididunt Lorem occaecat. Aute culpa incididunt consectetur minim elit qui reprehenderit sint. Sit officia magna elit anim officia reprehenderit excepteur sunt. Irure occaecat voluptate deserunt sit est sint enim id deserunt in. Veniam pariatur deserunt quis excepteur incididunt incididunt magna ullamco nisi.\r\n",
-        "stack": "HTML,CSS,Js,React",
-        "liveLink": "Netlify",
-        "repoLink": "Github"
-    },
-    {
-        "id": "010",
-        "picture": "http://placehold.it/32x32",
-        "name": "Ramos Britt",
-        "about": "Ea dolore incididunt Lorem occaecat. Aute culpa incididunt consectetur minim elit qui reprehenderit sint. Sit officia magna elit anim officia reprehenderit excepteur sunt. Irure occaecat voluptate deserunt sit est sint enim id deserunt in. Veniam pariatur deserunt quis excepteur incididunt incididunt magna ullamco nisi.\r\n",
-        "stack": "HTML,CSS,JS,React",
-        "liveLink": "Netlify",
-        "repoLink": "Github"
+        "picture": "https://i.ibb.co/nB74yzv/p-1-short.png",
+        "fullPicture": "https://i.ibb.co/hCB1Q3F/p-1-long.png",
+        "name": "Reseliya",
+        "about": "Reseliya is a resale website where users can post there used product and seller can book product from here. Stripe payment gateway added to make payment. There are many special feature added to user / buyer / admin.",
+        "technology": "React, Node, Express, MongoDB, Firebase, Stripe",
+        "functionality": [
+            "Reseliya have a wonderful user friendly UI to feel best UI experience to our user.",
+            "Our website is mainly selling used mobile phone, there are about 6 brand categories.",
+            "Each category have some product, A buyer can choose product from category and click on See details button to see more details about our product. Here a buyer can see Book button.",
+            "After clicking book button, a modal will pop up and user can put his meeting location and phone number to place booking.",
+            "After placing booking, a booking will be added to user dashboard and a booking will be added to seller dashboard.",
+            "A seller can see his all booking from his dashboard and he can accept or reject booking.",
+            "After accepting booking, a booking will be added to admin dashboard and a booking will be added to user dashboard.",
+            "Any user can register as Seller or Buyer",
+            "A seller can add product from his dashboard and he can see his all product from his dashboard.",
+            "A seller can delete his product from his dashboard.",
+            "A seller can update his product from his dashboard.",
+            "React Helmet Used to dynamically change title of the page"
+        ],
+        "liveLink": "https://reseliya.web.app/",
+        "stack": "MREN Stack",
+        "clientRepo": "https://github.com/anikahammedkhan/reseliya-client",
+        "serverRepo": "https://github.com/anikahammedkhan/reseliya-server",
+        "status": "Completed",
+        "date": "2021-05-01"
     }
 ]

@@ -39,7 +39,6 @@ const Hero = () => {
             <Projects></Projects>
             <About></About>
         </div>
-
     );
 };
 
