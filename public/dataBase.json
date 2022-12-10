@@ -1,6 +1,6 @@
 [
     {
-        "id": "001",
+        "id": 1,
         "picture": "https://i.ibb.co/nB74yzv/p-1-short.png",
         "fullPicture": "https://i.ibb.co/hCB1Q3F/p-1-long.png",
         "name": "Reseliya",
@@ -24,6 +24,55 @@
         "stack": "MREN Stack",
         "clientRepo": "https://github.com/anikahammedkhan/reseliya-client",
         "serverRepo": "https://github.com/anikahammedkhan/reseliya-server",
+        "status": "Completed",
+        "date": "2021-05-01"
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/QPNshnc/p-2-short.png",
+        "fullPicture": "https://i.ibb.co/RzFQSHM/p-2-long.png",
+        "name": "Printigo",
+        "about": "Printigo is an online based Individual Printing Service Provider Website. Printigo have 6 Professional services that can help you to channel creativity, colors, copy and print facility to help my customer with better branding",
+        "technology": "React, Node, Express, MongoDB, Firebase",
+        "functionality": [
+            "Printigo have a wonderful user friendly UI to feel best UI experience to our user.",
+            "Printigo has a wonderful home page design with some interactive section with some Lottie Image.",
+            "User can easily register from register page , we use firebase authentication to this login and sign up functionality",
+            "Logged in user will get access to few more private route like My reviews and Add Services",
+            "User can see detailed view of services on clicking See Details button on each of the card",
+            "In any user click on any service card image or details page image , the image will pop up in full size (react photo view)",
+            "Every page have its own title (react helmet)",
+            "This website is fully responsive on both desktop,mobile and tablet"
+        ],
+        "liveLink": "https://printigo-ea932.web.app",
+        "stack": "MREN Stack",
+        "clientRepo": "https://github.com/anikahammedkhan/printigo-client",
+        "serverRepo": "https://github.com/anikahammedkhan/printigo-server",
+        "status": "Completed",
+        "date": "2021-05-01"
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/v3HV0Rf/p-3-short.png",
+        "fullPicture": "https://i.ibb.co/sbJVQq2/p-3-long.png",
+        "name": "Learn With Anik360",
+        "about": "Learn With Anik360 is a learning website where users can learn about programming and web development. There are many special feature added to user / admin.",
+        "technology": "React, Node, Express, MongoDB, Firebase",
+        "functionality": [
+            "Learn with Anik360 has a wonderful home page design with some interactive section with some Lottie Image.",
+            "Our website have a responsive navigation menu with our logo. In Tablet and Mobile mode navigation menu will shrink.",
+            "In courses page, there is aside navigation bar. Courses page has 9 professional courses listed on both aside nav and courses card view.",
+            "In course details page you can also Download the details by clicking the top right corner Download Preview button.",
+            "If you are a registered user and you are logged in , you can Get Premium Access from clicking button.",
+            "If you click on Get Premium Access button , then you will be navigate to Checkout Page.(if you are logged in , otherwise you will be routed to login page)",
+            "Every page have its own title (react helmet)",
+            "If you are a logged in user, then your profile picture will be shown at navbar and if you click on your profile, you will see your name. There is a toggle button on the navbar to toggle between dark and light mode. In Login page, You will see 3 Login method. Email password, Google Login and Github Login. You can toggle between register and login page.",
+            "This website is fully responsive on both desktop,mobile and tablet"
+        ],
+        "liveLink": "https://learn-with-anik360.web.app/",
+        "stack": "MREN Stack",
+        "clientRepo": "https://github.com/anikahammedkhan/learn-with-anik360-client",
+        "serverRepo": "https://github.com/anikahammedkhan/learn-with-anik360-server",
         "status": "Completed",
         "date": "2021-05-01"
     }
