@@ -18,11 +18,11 @@ const Contact = () => {
     };
     return (
         <div className='contact-us block md:flex items-center justify-evenly p-4 md:p-0'>
-            <div className='w-full md:w-1/4 lg:w-1/2 my-8 md:my-0'>
+            <div className='w-full md:w-1/4 lg:w-1/2 my-8 md:my-0' data-aos="fade-right">
                 <h1 className='text-4xl md:text-5xl lg:text-8xl font-bold text-sky-400'>Let's Talk</h1>
                 <p className='font-bold text-xl md:text-lg lg:text-2xl text-white'>To Request a quote or want to meet-up for a coffee, Contact me directly on What's App or fill out the form and I'will get back to you promptly!</p>
             </div>
-            <div className='w-full md:w-1/3 lg:w-1/3 contact-form shadow-2xl'>
+            <div className='w-full md:w-1/3 lg:w-1/3 contact-form shadow-2xl' data-aos="fade-down-left">
                 <form ref={form} onSubmit={sendEmail}>
                     <div>
                         <label className="block mb-2 text-sm font-medium">Your email</label>

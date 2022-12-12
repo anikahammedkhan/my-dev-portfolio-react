@@ -2,15 +2,17 @@ import React from 'react';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
 import { Link } from 'react-router-dom';
+import { BsArrowRight } from "react-icons/bs";
+import "./Project.css"
 
 const Project = ({ project }) => {
-    const { id, picture, name, about, stack } = project;
+    const { _id, picture, fullPicture, name, about, stack } = project;
     return (
-        <div className="card w-full h-full bg-base-100 shadow-xl">
-            <figure>
+        <div className="card w-full h-full bg-base-100 shadow-xl" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500" class="aos-init aos-animate">
+            <figure className='other-pro-img'>
                 <PhotoProvider>
                     <PhotoView src={picture}>
-                        <img className='object-fit w-full' src={picture} alt="Shoes" />
+                        <img className='w-full' src={fullPicture} alt="Shoes" />
                     </PhotoView>
                 </PhotoProvider>
             </figure>
@@ -21,7 +23,7 @@ const Project = ({ project }) => {
                 </h2>
                 <p>{about}</p>
                 <div className="card-actions justify-end">
-                    <Link className='btn btn-info text-white hover:btn-success hover:text-white'>See Details</Link>
+                    <Link to={`/project/${_id}`} className='btn btn-info text-white hover:btn-success hover:text-white'>See Details   <BsArrowRight className='ml-3' /></Link>
                 </div>
             </div>
         </div>

@@ -1,16 +1,21 @@
+import React from 'react';
 import Lottie from "lottie-react";
 import { GiOfficeChair } from 'react-icons/gi';
 import { GrLocation } from 'react-icons/gr';
 import { BsCalendar3 } from 'react-icons/bs';
 import hello from '../Lottie/31548-robot-says-hello.json';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
+Aos.init({ duration: 2000 });
+
 const About = () => {
     const Hello = hello;
     return (
         <div className='lg:flex md:block block mx-8 my-4'>
-            <div className='lg:w-1/2 md:w-2/3 py-6 md:mx-auto'>
+            <div className='lg:w-1/2 md:w-2/3 py-6 md:mx-auto' data-aos="fade-right">
                 <Lottie animationData={Hello} loop={true} autoplay={true} />
             </div>
-            <div className='lg:w-1/2 md:w-full my-auto'>
+            <div className='lg:w-1/2 md:w-full my-auto' data-aos="fade-left">
                 <div>
                     <h1 className='text-4xl font-bold'>About Me</h1>
                     <p className='mt-4'>I am a Full Stack Web Developer. I am not from Computer Science background but I have extreme interest on Technology, Ai, Programming. Currently I am learning data structure and algorithm. I feel more interest in competitive programming, learning new things, explore new places. I good at JavaScript and Python. Trying to learn C++.

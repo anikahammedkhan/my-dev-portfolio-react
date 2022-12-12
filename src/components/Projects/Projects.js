@@ -5,13 +5,13 @@ import Project from '../Project/Project';
 const Projects = () => {
     const [projects, setProjects] = useState([]);
     useEffect(() => {
-        fetch('dataBase.json')
+        fetch('https://front-end-developer-server.vercel.app/projects')
             .then(res => res.json())
             .then(data => setProjects(data))
     }, []);
     return (
         <div id='projects'>
-            <div className='font-color text-center py-4 px-3'>
+            <div className='font-color text-center py-4 px-3' data-aos="zoom-out-right">
                 <h1 className='text-3xl md:text-5xl font-bold py-4'>Projects</h1>
                 <p className='text-2xl md:text-3xl'>Things I’ve built so far</p>
             </div>
@@ -19,7 +19,7 @@ const Projects = () => {
                 {
                     projects.map(project =>
                         <Project project={project}
-                            key={project.id}
+                            key={project._id}
                         ></Project>
                     )
                 }

@@ -22,7 +22,7 @@ const Hero = () => {
     return (
         <div>
             <div id='home' className='flex p-5 md:p-28 justify-center items-center flex-col-reverse md:flex-row lg:flex-row'>
-                <div className='flex-initial md:w-1/2'>
+                <div className='flex-initial md:w-1/2' data-aos="fade-right">
                     <h1 className='text-4xl md:text-5xl lg:text-6xl py-2 font-color'>Hi👋,</h1>
                     <h1 className='text-2xl md:text-4xl lg:text-4xl py-2 font-color'>My Name is</h1>
                     <h1 className='text-2xl md:text-4xl lg:text-5xl py-2 font-semibold text-gardient'>Md Anik Ahammed Khan</h1>
@@ -31,7 +31,7 @@ const Hero = () => {
                         <button onClick={downloadResume} className='bg-[#0752cb] hover:bg-[#0a0ab9] text-white font-bold py-2 px-8 rounded-full mr-2'>Download Resume</button>
                     </div>
                 </div>
-                <div className='flex-initial md:w-1/2'>
+                <div className='flex-initial md:w-1/2' data-aos="fade-left">
                     <img className='w-3/4 md:w-4/5 lg:w-3/4 mx-auto rounded-full border-[#243c5a]' src={profile} alt="" />
                 </div>
             </div>
