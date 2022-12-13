@@ -1,10 +1,10 @@
 import React from 'react';
-import About from '../About/About';
 import Projects from '../Projects/Projects';
 import TechStack from '../TechStack/TechStack';
 import './Hero.css';
 import profile from './profile.png';
 import Typewriter from 'typewriter-effect';
+import About from '../About/About';
 
 const Hero = () => {
     const downloadResume = () => {
@@ -50,7 +50,7 @@ const Hero = () => {
             </div>
             <TechStack></TechStack>
             <Projects></Projects>
-            <About></About>
+            <About />
         </div>
     );
 };
