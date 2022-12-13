@@ -4,6 +4,7 @@ import Projects from '../Projects/Projects';
 import TechStack from '../TechStack/TechStack';
 import './Hero.css';
 import profile from './profile.png';
+import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
     const downloadResume = () => {
@@ -26,7 +27,19 @@ const Hero = () => {
                     <h1 className='text-4xl md:text-5xl lg:text-6xl py-2 font-color'>Hi👋,</h1>
                     <h1 className='text-2xl md:text-4xl lg:text-4xl py-2 font-color'>My Name is</h1>
                     <h1 className='text-2xl md:text-4xl lg:text-5xl py-2 font-semibold text-gardient'>Md Anik Ahammed Khan</h1>
-                    <p className='md:text-lg lg:text-2xl py-2 font-color'>I'm a web developer based in Dhaka, Bangladesh specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.</p>
+                    <div className='flex'>
+                        <h1 className='text-2xl md:text-4xl lg:text-4xl py-2 font-color mr-3'>I'm a</h1>
+                        <h1 className='text-2xl md:text-4xl lg:text-4xl py-2 font-semibold text-gardient'>
+                            <Typewriter
+                                options={{
+                                    strings: ['Front-End Developer', 'ReactJs Developer', 'Freelancer'],
+                                    autoStart: true,
+                                    loop: true,
+                                }}
+                            />
+                        </h1>
+                    </div>
+                    <p className='md:text-lg lg:text-2xl py-2 font-color'>Based in Dhaka, Bangladesh specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.</p>
                     <div className='flex flex-row justify-center md:justify-start'>
                         <button onClick={downloadResume} className='bg-[#0752cb] hover:bg-[#0a0ab9] text-white font-bold py-2 px-8 rounded-full mr-2'>Download Resume</button>
                     </div>
