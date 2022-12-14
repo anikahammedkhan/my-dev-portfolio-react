@@ -70,7 +70,7 @@ const About = () => {
                         <AnimatedProgressProvider
                             valueStart={0}
                             valueEnd={95}
-                            duration={1.4}
+                            duration={2}
                             easingFunction={easeQuadInOut}
                             repeat
                         >
@@ -97,7 +97,7 @@ const About = () => {
                         <AnimatedProgressProvider
                             valueStart={0}
                             valueEnd={92}
-                            duration={1.4}
+                            duration={2}
                             easingFunction={easeQuadInOut}
                             repeat
                         >
@@ -124,7 +124,7 @@ const About = () => {
                         <AnimatedProgressProvider
                             valueStart={0}
                             valueEnd={80}
-                            duration={1.4}
+                            duration={2}
                             easingFunction={easeQuadInOut}
                             repeat
                         >
@@ -151,7 +151,7 @@ const About = () => {
                         <AnimatedProgressProvider
                             valueStart={0}
                             valueEnd={92}
-                            duration={1.4}
+                            duration={2}
                             easingFunction={easeQuadInOut}
                             repeat
                         >
@@ -178,7 +178,7 @@ const About = () => {
                         <AnimatedProgressProvider
                             valueStart={0}
                             valueEnd={90}
-                            duration={1.4}
+                            duration={2}
                             easingFunction={easeQuadInOut}
                             repeat
                         >
@@ -205,7 +205,7 @@ const About = () => {
                         <AnimatedProgressProvider
                             valueStart={0}
                             valueEnd={90}
-                            duration={1.4}
+                            duration={2}
                             easingFunction={easeQuadInOut}
                             repeat
                         >
@@ -232,7 +232,7 @@ const About = () => {
                         <AnimatedProgressProvider
                             valueStart={0}
                             valueEnd={30}
-                            duration={1.4}
+                            duration={2}
                             easingFunction={easeQuadInOut}
                             repeat
                         >
@@ -259,7 +259,7 @@ const About = () => {
                         <AnimatedProgressProvider
                             valueStart={0}
                             valueEnd={80}
-                            duration={1.4}
+                            duration={2}
                             easingFunction={easeQuadInOut}
                             repeat
                         >
@@ -286,7 +286,7 @@ const About = () => {
                         <AnimatedProgressProvider
                             valueStart={0}
                             valueEnd={50}
-                            duration={1.4}
+                            duration={2}
                             easingFunction={easeQuadInOut}
                             repeat
                         >
@@ -313,7 +313,7 @@ const About = () => {
                         <AnimatedProgressProvider
                             valueStart={0}
                             valueEnd={50}
-                            duration={1.4}
+                            duration={2}
                             easingFunction={easeQuadInOut}
                             repeat
                         >
