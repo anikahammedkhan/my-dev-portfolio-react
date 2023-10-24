@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import Typewriter from "typewriter-effect";
 import OrbitComponent from "./OrbitComponent";
+import { HiOutlineDownload } from "react-icons/hi";
 
 const Hero = () => {
   const downloadResume = () => {
@@ -19,7 +20,7 @@ const Hero = () => {
     <div>
       <div
         id="home"
-        className="flex p-5 md:p-28 justify-center items-center flex-col-reverse md:flex-row lg:flex-row"
+        className="flex p-5 md:p-28 items-center flex-col-reverse md:flex-row lg:flex-row"
       >
         <div className="flex-initial md:w-1/2" data-aos="fade-right">
           <h1 className="text-4xl md:text-5xl lg:text-6xl py-2 font-color">
@@ -58,9 +59,10 @@ const Hero = () => {
           <div className="flex flex-row justify-center md:justify-start">
             <button
               onClick={downloadResume}
-              className="bg-[#0752cb] hover:bg-[#0a0ab9] text-white font-bold py-2 px-8 rounded-full mr-2"
+              className="bg-[#0752cb] hover:bg-[#0a0ab9] text-white font-bold py-3 px-8 rounded-full mr-2"
             >
               Download Resume
+              <HiOutlineDownload className="inline-block ml-2 text-2xl" />
             </button>
           </div>
         </div>
